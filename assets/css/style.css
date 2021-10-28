@@ -889,34 +889,6 @@ figure {
 }
 
 
-/*-- 
-    - Input Placeholder
------------------------------------------*/
-
-input:-moz-placeholder,
-textarea:-moz-placeholder {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
 
 /*margin css here*/
 
@@ -7268,7 +7240,7 @@ section.error_section {
 
 .gam_additional_information {
     background: #6c542c;
-    padding: 134px 65px;
+    padding: 50px 65px;
     border-radius: 23px;
     margin-bottom: 44px;
     -webkit-border-radius: 23px;
