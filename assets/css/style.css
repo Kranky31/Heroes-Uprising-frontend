@@ -7,6 +7,17 @@
 
 /*----------------------------------------*/
 
+#playPauseBTN {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .uk-timeline .uk-timeline-item .uk-card {
     max-height: 300px;
 }
@@ -7309,6 +7320,7 @@ section.error_section {
 }
 
 .additional_information_text {
+    text-align: center;
     margin-right: 100px;
 }
 
