@@ -279,6 +279,9 @@ p:not([class]):first-child {
     margin-top: var(--cardContentMarginTop, 0.5rem);
 }
 
+.card__content p {
+    font-size: 13px;
+}
 
 /*
   skin
@@ -286,16 +289,16 @@ p:not([class]):first-child {
 
 .card {
     border-radius: var(--timelineCardBorderRadius, 2px);
-    border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+    border-left: var(--timelineCardBorderLeftWidth, 5px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
     box-shadow: var( --timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24));
     background-color: var(--timelineCardBackgroundColor, #b05f2e);
-    padding: 23px 23px;
+    padding: 10px 20px;
     border-radius: 23px;
     margin-bottom: 44px;
     -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    -ms-border-radius: 23px;
-    -o-border-radius: 23px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
@@ -326,7 +329,7 @@ p:not([class]):first-child {
   */
 
 .timeline__year {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.5rem;
     /* 1 */
 }
 
@@ -346,12 +349,12 @@ p:not([class]):first-child {
     --uiTimelineMainColor: var(--timelineMainColor, #fbce67);
     --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
     border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
 .timeline__year {
-    --timePadding: var(--timelineYearPadding, 0.5rem 1.5rem);
+    --timePadding: var(--timelineYearPadding, 0.5rem 3rem);
     --timeColor: var(--uiTimelineSecondaryColor);
     --timeBackgroundColor: var(--uiTimelineMainColor);
     --timeFontWeight: var(--timelineYearFontWeight, 400);
@@ -359,7 +362,7 @@ p:not([class]):first-child {
 
 .timeline__card {
     position: relative;
-    margin-left: var(--timelineCardLineGap, 1rem);
+    margin-left: var(--timelineCardLineGap, 2rem);
 }
 
 
