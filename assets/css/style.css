@@ -578,7 +578,7 @@ figure {
 
 .body__bg {
     background-size: cover;
-    background-color: #e28d2b93;
+    background-repeat: no-repeat;
 }
 
 .btn.btn-link {
@@ -747,7 +747,7 @@ figure {
     margin-bottom: 0;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
     .section_title h2 {
         font-size: 50px;
         line-height: 65px;
@@ -887,7 +887,6 @@ figure {
 .bluewood-bg {
     background: #354b65;
 }
-
 
 
 /*margin css here*/
