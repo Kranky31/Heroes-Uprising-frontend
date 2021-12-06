@@ -7,6 +7,7 @@
     <title>Heroes Uprising</title>
     <meta name="description" content="Heroes Uprising" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -50,8 +51,8 @@
                                     <a href="index.html">Home</a></li>
                                 <li class="menu-item-has-children"><a href="#about">About</a></li>
                                 <li class="menu-item-has-children"><a href="#Hero">Heroes</a></li>
-                                <li class="menu-item-has-children"><a href="#battle">Battle</a></li>
                                 <li class="menu-item-has-children"><a href="#Token">Token</a></li>
+                                <li class="menu-item-has-children"><a href="#roadmap">Roadmap</a></li>
                                 <li class="menu-item-has-children"><a href="https://heroes-uprising.gitbook.io/heroes-uprising">Whitepaper</a></li>
                             </ul>
                         </div>
@@ -78,8 +79,8 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#Hero">Heroes</a></li>
-                                    <li><a href="#battle">Battle</a></li>
                                     <li><a href="#Token">Token</a></li>
+                                    <li><a href="#roadmap">Roadmap</a></li>
                                     <li><a href="https://heroes-uprising.gitbook.io/heroes-uprising">Whitepaper</a></li>
                                 </ul>
                             </nav>
@@ -97,7 +98,7 @@
                             <audio id="audio" loop>
                                 <source src="assets/music/bgmusic.mp3" type="audio/mpeg">
                             </audio>
-                            <button id="playPauseBTN" onclick="playPause()"><i class="fas fa-volume-mute"></i></button>
+                            <button id="playPauseBTN" onclick="playPause()"><i class="fas fa-volume-up"></i></button>
 
                         </div>
 
@@ -454,15 +455,11 @@
         <!-- MEET OUR Heroes Uprising</ CHARACTERS section end -->
 
         <!--game details section area start-->
-        <section class="game_details_section mb-125" id="battle">
+        <section class="game_details_section mb-125">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-
-
-
-
-                        <div class="gam_additional_information" id="Token">
+                    <div class="col-12" id="Token">
+                        <div class="gam_additional_information">
                             <h3 class="additional_information_title">Token information</h3>
                             <br>
                             <div class="gam_additional_inner d-flex ">
@@ -498,7 +495,7 @@
                         <br>
 
                         <!--Roadmap-->
-                        <h2 class="additional_information_title">Roadmap</h2>
+                        <h2 class="additional_information_title" id="roadmap">Roadmap</h2>
                         <div class="page">
                             <div class="timeline">
                                 <div class="timeline__group">
@@ -692,7 +689,7 @@
         <script>
             window.onload = function() {
                     document.getElementById("audio").play();
-                }
+                }-- >
 
                 var audio = document.getElementById('audio');
             var playPauseBTN = document.getElementById('playPauseBTN');
