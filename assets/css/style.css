@@ -3714,6 +3714,7 @@ a.text-theme:hover,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: sticky;
 }
 
 .header-layout2 .will-sticky .header-menu-area,
