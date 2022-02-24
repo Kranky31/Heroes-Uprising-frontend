@@ -1723,6 +1723,7 @@ textarea.form-control.is-invalid {
 .sec-title-HU {
     margin-top: -0.25em;
     margin-bottom: 14px;
+    font-family: 'New Rocker';
     font-size: 78px;
 }
 
@@ -1921,16 +1922,6 @@ textarea.form-control.is-invalid {
     clear: both
 }
 
-.vs-cursor {
-    position: absolute;
-    z-index: 99999;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    pointer-events: none;
-    background-image: url(../img/cursor/cursor.png)auto;
-    opacity: 10
-}
 
 @media (max-width: 1399px) {
     .vs-cursor {
@@ -4413,6 +4404,7 @@ blockquote cite {
 .hero-text {
     font-size: 19px;
     text-align: center, justify;
+    font-family: 'New Rocker';
 }
 
 .hero-sub-title {
@@ -4430,7 +4422,8 @@ blockquote cite {
 
 @media (min-width: 1399px) {
     .hero-title {
-        font-size: 70px;
+        font-size: 50px;
+        font-family: 'New Rocker';
         margin-bottom: 3px
     }
 }
@@ -4999,7 +4992,7 @@ blockquote cite {
 
 .video-card_content {
     text-align: center;
-    background-color: #b66734;
+    background-color: #7a4607c4;
     position: absolute;
     left: 0;
     right: 0;
@@ -5466,6 +5459,7 @@ blockquote cite {
 .space-top_gameplay {
     padding-top: 45px;
     background-image: url(../img/bg/gameplay.svg.jpg);
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
     background-size: cover;
     background-repeat: no-repeat;
 }
